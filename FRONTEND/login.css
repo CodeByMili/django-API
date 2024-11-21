@@ -1,0 +1,65 @@
+body {
+    background-color: #fad7a0; /* Fondo amarillo beige */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Asegura que el contenedor ocupe toda la pantalla */
+}
+
+.card {
+    background-color: #ffffff; /* Fondo blanco para la tarjeta */
+    border: 1px solid #e59866; /* Borde color naranja suave */
+    padding: 30px; /* Agrega más espacio dentro de la tarjeta */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+    width: 100%;
+    max-width: 500px; /* Aumenta un poco el tamaño máximo de la tarjeta */
+}
+
+.card h3 {
+    color: #070707; /* Título en color oscuro */
+    margin-bottom: 20px; /* Separación del título respecto al formulario */
+    text-align: center;
+}
+
+input[type="text"], input[type="password"] {
+    border: 1px solid #e59866; /* Borde color naranja suave */
+    color: #070707; /* Texto en color oscuro */
+    padding: 12px; /* Aumenta el padding para darle más espacio */
+    font-size: 16px; /* Aumenta el tamaño de la fuente */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 100%; /* Asegura que los campos ocupen todo el ancho */
+    margin-bottom: 15px; /* Espacio entre los campos */
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #d77c40; /* Color de borde al enfocar */
+    box-shadow: 0 0 0 0.25rem rgba(216, 124, 64, 0.25); /* Sombra en el borde */
+}
+
+button {
+    background-color: #d77c40; /* Naranja suave para el botón */
+    border-color: #d77c40; /* Borde naranja suave */
+    color: white;
+    padding: 14px; /* Aumenta el padding */
+    font-size: 18px; /* Aumenta el tamaño de la fuente */
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+    background-color: #f0a500; /* Naranja más suave en hover */
+    border-color: #f0a500; /* Borde en naranja suave */
+}
+
+button:focus {
+    outline: none; /* Elimina el contorno del botón */
+}
